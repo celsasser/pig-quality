@@ -1,0 +1,142 @@
+{
+	"extends": "eslint:recommended",
+	"env": {
+		"es6": true,
+		"node": true,
+		"mocha": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+	},
+	"rules": {
+		"block-spacing": "off",
+		"brace-style": [
+			"error",
+			"1tbs",
+			{
+				"allowSingleLine": true
+			}
+		],
+		"comma-spacing": [
+			"error",
+			{
+				"before": false,
+				"after": true
+			}
+		],
+		"computed-property-spacing": [
+			"error",
+			"never"
+		],
+		"consistent-this": [
+			"error",
+			"self"
+		],
+		"curly": "error",
+		"func-call-spacing": [
+			"error",
+			"never"
+		],
+		"handle-callback-err": "error",
+		"indent": [
+			"error",
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		],
+		"valid-jsdoc": [
+			"error",
+			{
+				"requireReturn": false,
+				"requireParamDescription": false,
+				"requireReturnDescription": false
+			}
+		],
+		"key-spacing": [
+			"error",
+			{
+				"beforeColon": false,
+				"afterColon": true,
+				"mode": "strict"
+			}
+		],
+		"linebreak-style": [
+			"error",
+			"unix"
+		],
+		"new-cap": [
+			"error",
+			{
+				"properties": false
+			}
+		],
+		"newline-per-chained-call": [
+			"error",
+			{
+				"ignoreChainWithDepth": 3
+			}
+		],
+		"no-alert": "error",
+		"no-duplicate-imports": "error",
+		"no-cond-assign": "off",
+		"no-ex-assign": "off",
+		"no-extend-native": "error",
+		"no-implicit-globals": "error",
+		"no-invalid-this": "error",
+		"no-labels": "error",
+		"no-multiple-empty-lines": [
+			"error",
+			{
+				"max": 2
+			}
+		],
+		"no-trailing-spaces": [
+			"error",
+			{
+				"skipBlankLines": true
+			}
+		],
+		"no-throw-literal": "error",
+		"no-unused-vars": [
+			"off",
+			{
+				"args": "none"
+			}
+		],
+		"no-void": "error",
+		"no-with": "error",
+		"no-whitespace-before-property": "error",
+		"padded-blocks": [
+			"error",
+			"never"
+		],
+		"quotes": [
+			"error",
+			"double",
+			{"avoidEscape": true}
+		],
+		"semi": [
+			"error",
+			"always"
+		],
+		"semi-spacing": "error",
+		"space-before-blocks": [
+			"error"
+		],
+		"space-before-function-paren": [
+			"error",
+			"never"
+		],
+		"spaced-comment": [
+			"off",
+			"always",
+			{
+				"exceptions": [
+					"*"
+				]
+			}
+		]
+	}
+}

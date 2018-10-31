@@ -1,0 +1,14 @@
+{
+	"extends": [
+		"./server.eslintrc.json",
+		"plugin:react/recommended"
+	],
+	"env": {
+		"browser": true
+	},
+	"settings": {
+		"react": {
+			"version": "16.5"
+		}
+	}
+}

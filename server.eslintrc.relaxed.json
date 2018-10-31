@@ -1,0 +1,84 @@
+{
+	"extends": "./server.eslintrc.json",
+	"rules": {
+		"brace-style": [
+			"warn",
+			"1tbs",
+			{
+				"allowSingleLine": true
+			}
+		],
+		"comma-dangle": "warn",
+		"comma-spacing": [
+			"warn",
+			{
+				"before": false,
+				"after": true
+			}
+		],
+		"computed-property-spacing": [
+			"warn",
+			"never"
+		],
+		"consistent-this": [
+			"warn",
+			"self"
+		],
+		"func-call-spacing": [
+			"warn",
+			"never"
+		],
+		"handle-callback-err": "warn",
+		"indent": "off",
+		"valid-jsdoc": "off",
+		"key-spacing": [
+			"warn",
+			{
+				"beforeColon": false,
+				"afterColon": true,
+				"mode": "strict"
+			}
+		],
+		"linebreak-style": [
+			"warn",
+			"unix"
+		],
+		"new-cap": [
+			"warn",
+			{
+				"properties": false
+			}
+		],
+		"newline-per-chained-call": [
+			"warn",
+			{
+				"ignoreChainWithDepth": 3
+			}
+		],
+		"no-alert": "warn",
+		"no-console": "warn",
+		"no-duplicate-imports": "warn",
+		"no-empty": "off",
+		"no-invalid-this": "warn",
+		"no-mixed-spaces-and-tabs": "off",
+		"no-multi-spaces": "warn",
+		"no-multiple-empty-lines": "off",
+		"no-trailing-spaces": "off",
+		"no-whitespace-before-property": "warn",
+		"padded-blocks": [
+			"warn",
+			"never"
+		],
+		"semi": [
+			"warn",
+			"always"
+		],
+		"space-before-blocks": [
+			"warn"
+		],
+		"space-before-function-paren": [
+			"warn",
+			"never"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"extends": [
+		"./server.eslintrc.realtime.json",
+		"plugin:react/recommended"
+	],
+	"env": {
+		"browser": true
+	},
+	"settings": {
+		"react": {
+			"version": "16.5"
+		}
+	}
+}
