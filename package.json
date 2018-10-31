@@ -3,6 +3,7 @@
 	"description": "Code quality resources.",
 	"homepage": "https://bitbucket.org/fishguts/pig-quality#readme",
 	"license": "ISC",
+	"main": "./index.js",
 	"name": "pig-quality",
 	"version": "0.0.1",
 	"keywords": [
