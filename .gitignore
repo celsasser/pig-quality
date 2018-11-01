@@ -5,7 +5,7 @@
 *~
 *.tmp
 *.zip
-log
+/log
 
 # eliminate .idea files that we don't use or that we simply don't want to share
 .idea/watcherTasks.xml

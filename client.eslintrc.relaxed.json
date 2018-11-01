@@ -1,6 +1,6 @@
 {
 	"extends": [
-		"./server.eslintrc.realtime.json",
+		"./server.eslintrc.relaxed.json",
 		"plugin:react/recommended"
 	],
 	"env": {
