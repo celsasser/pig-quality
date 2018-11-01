@@ -8,11 +8,7 @@
 /log
 
 # eliminate .idea files that we don't use or that we simply don't want to share
-.idea/watcherTasks.xml
-.idea/workspace.xml
+.idea
 
 # npm modules that will be built dynamically
 node_modules
-
-# ignore our library projects
-core
