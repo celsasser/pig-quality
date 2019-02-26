@@ -100,8 +100,9 @@
 		],
 		"no-throw-literal": "error",
 		"no-unused-vars": [
-			"off",
+			"warn",
 			{
+				"vars": "local",
 				"args": "none"
 			}
 		],
@@ -115,7 +116,9 @@
 		"quotes": [
 			"error",
 			"double",
-			{"avoidEscape": true}
+			{
+				"avoidEscape": true
+			}
 		],
 		"semi": [
 			"error",
