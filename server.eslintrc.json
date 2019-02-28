@@ -81,6 +81,13 @@
 		"no-alert": "error",
 		"no-duplicate-imports": "error",
 		"no-cond-assign": "off",
+		"no-constant-condition": [
+			"error",
+			{
+				"checkLoops": false
+			}
+
+		],
 		"no-ex-assign": "off",
 		"no-extend-native": "error",
 		"no-implicit-globals": "error",
