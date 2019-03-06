@@ -64,6 +64,7 @@
 		"no-multi-spaces": "warn",
 		"no-multiple-empty-lines": "off",
 		"no-trailing-spaces": "off",
+		"no-unused-vars": "off",
 		"no-whitespace-before-property": "warn",
 		"padded-blocks": [
 			"warn",
