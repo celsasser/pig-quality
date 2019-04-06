@@ -1,11 +1,12 @@
 {
-	"author": "curt <curt.elsasser@gmail.com>",
+	"author": "Curt Elsasser",
 	"description": "Code quality resources.",
 	"homepage": "https://bitbucket.org/fishguts/pig-quality#readme",
 	"license": "ISC",
 	"main": "./index.js",
 	"name": "pig-quality",
-	"version": "0.0.3",
+	"readmeFilename": "README.md",
+	"version": "0.0.4",
 	"keywords": [
 		"code",
 		"quality",

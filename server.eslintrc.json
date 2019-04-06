@@ -43,6 +43,7 @@
 			"error",
 			"tab",
 			{
+				"ignoredNodes": ["TernaryExpressions"],
 				"SwitchCase": 1
 			}
 		],
