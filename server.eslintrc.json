@@ -43,7 +43,7 @@
 			"error",
 			"tab",
 			{
-				"ignoredNodes": ["TernaryExpressions"],
+				"ignoredNodes": ["ConditionalExpression"],
 				"SwitchCase": 1
 			}
 		],

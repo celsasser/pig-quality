@@ -6,7 +6,7 @@
 	"main": "./index.js",
 	"name": "pig-quality",
 	"readmeFilename": "README.md",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"keywords": [
 		"code",
 		"quality",
