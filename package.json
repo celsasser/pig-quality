@@ -1,19 +1,21 @@
 {
-	"author": "Curt Elsasser",
-	"description": "Code quality resources.",
-	"homepage": "https://bitbucket.org/fishguts/pig-quality#readme",
-	"license": "ISC",
-	"main": "./index.js",
-	"name": "pig-quality",
-	"readmeFilename": "README.md",
-	"version": "0.0.5",
+	"author": {
+		"email": "curt.elsasser@yahoo.com",
+		"name": "Curt Elsasser"
+	},
+	"description": "Code quality resources",
 	"keywords": [
 		"code",
 		"quality",
 		"pig"
 	],
+	"license": "MIT",
+	"main": "./index.js",
+	"name": "pig-quality",
+	"readmeFilename": "README.md",
 	"repository": {
 		"type": "git",
-		"url": "git+https://fishguts@bitbucket.org/fishguts/pig-quality.git"
-	}
+		"url": "https://github.com/celsasser/pig-quality.git"
+	},
+	"version": "1.0.0"
 }

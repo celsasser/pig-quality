@@ -2,7 +2,7 @@
 
 ## Overview
 
-A bunch of code quality resources that we opt to consolidate in a package rather than by some hierarchy. It includes:
+Some code quality resources that we share and include via npm. It includes:
 
 * [lint configurations](#lint)
 
